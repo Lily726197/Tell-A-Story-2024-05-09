@@ -6,3 +6,12 @@ body {
     color:white;
     font-family:"Permanent Marker", cursive;
 }
+
+p, a {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color:#AB2754;
+}
