@@ -1,3 +1,6 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+
 body {
     background-color:#380456;
 }
@@ -5,11 +8,20 @@ body {
 .title {
     color:white;
     font-family:"Permanent Marker", cursive;
+    text-align: center;
+    font-size: 3em;
 }
 
 p, a {
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Finlandica', Arial, Helvetica, sans-serif;
+    padding: 1vw;
+}
+
+a {
+    float: right;
+    padding: .5vw;
+    font-family: 'Blinker', Arial, Helvetica, sans-serif;
 }
 
 a:hover {
@@ -18,4 +30,82 @@ a:hover {
 
 .source {
     color:#3CA59D;
+    background-color: rgb(13, 13, 13);
+    height: 8vh;
+    opacity: 95%;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img-container2 {
+    text-align: left;
+    float: left;
+    padding: 0vw 1vw 1vw 1vw;
+}
+
+#jwgClownPNG {
+    width: 30vw;
+    max-width: 300px;
+}
+
+#jwgPhoto {
+    width: 65vw;
+    max-width: 650px;
+}
+
+#trialPhoto {
+    width: 50vw;
+    max-width: 950px;
+}
+
+#jwgClownWBalloons {
+    
+    width: 50vw;
+    max-width: 500px;
+}
+
+#balloonsPNG {
+    width: 22vw;
+    max-width: 200px;
+}
+
+#hatPNG {
+    width: 23vw;
+    max-width: 450px;
+}
+
+#victimsPhoto {
+    width: 60vw;
+    max-width: 800px;
+}
+
+.source-link {
+    float: left;
+}
+
+#trial-bg {
+    background-color: #4152D3;
+}
+
+#victims-bg {
+    background-color: #CB5422;
+}
+
+#career-bg {
+    background-color: #ED3D79;
+}
+
+#sources-bg {
+    background-color: #D5AF36;
+    background-image: url(/imgs/clown-bg.png);
+    background-repeat: repeat;
+    background-size: 80vw;
+}
+
+.housing {
+    background-color: rgb(37, 37, 37);
+    opacity: 97%;
+    height: 50vh;
 }
